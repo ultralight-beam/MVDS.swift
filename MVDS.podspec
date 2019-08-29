@@ -8,5 +8,5 @@ Pod::Spec.new do |spec|
 	spec.source_files = 'Sources/MVDS/*.swift'
 	spec.summary = 'Minimally viable data sync implemented in swift'
 	spec.swift_version = '4.2'
-	spec.platform = :ios, "9.0"
+	spec.platform = :ios, "9.0", :macos, '10.11'
 end
