@@ -2,8 +2,8 @@ included:
   - Sources
   - Tests
 excluded:
-  - Tests/UBTests/stubs
-  - Tests/UBTests/XCTestManifests.swift
+  - Tests/MVDSTests/stubs
+  - Tests/MVDSTests/XCTestManifests.swift
 file_name:
   excluded:
     - Package.swift
