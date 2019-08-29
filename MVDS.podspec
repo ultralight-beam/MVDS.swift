@@ -7,6 +7,6 @@ Pod::Spec.new do |spec|
 	spec.source = { :git => 'https://github.com/ultralight-beam/MVDS.swift.git', :tag => 'v0.1.0'}
 	spec.source_files = 'Sources/MVDS/*.swift'
 	spec.summary = 'Minimally viable data sync implemented in swift'
-	spec.swift_version = '4.2'
+	spec.swift_version = '5.0'
 	spec.platform = :ios, "9.0", :macos, '10.11'
 end
